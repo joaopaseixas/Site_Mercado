@@ -1,0 +1,86 @@
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Cairo",sans-serif;
+}
+
+#header{
+    height: 40px;
+    background-color: #f5f5f5;
+    display: flex;
+}
+
+#boxEmail{
+    padding-left: 15%;
+    font-size: 14px;
+    padding-top: 5px;
+    margin-right: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    color: #1c1c1c;
+}
+
+#email{
+    color: #252525;
+    height: 30%;
+    display:flex;
+
+}
+
+#free{
+    font-size: 14px;
+    color: #1c1c1c;
+    display: inline-block;
+    padding-top: 5px;
+}
+
+#main
+{
+    display: grid;
+    grid-template-columns: 1.3fr 1.3fr 1.3fr 1.3fr 1.3fr 1.3fr;
+    grid-template-rows: 80px 80px 413px 271px;
+}
+
+#main>div
+{
+    border:solid 1px;
+
+}
+
+#Logo
+{
+    grid-column: 2;
+}
+
+#Nav
+{
+    grid-column: 3/6;
+}
+
+#Menu
+{
+    grid-column: 2;
+    grid-row: 2/4;
+}
+
+#Busca 
+{
+    grid-column: 3/6;
+    grid-row: 2;
+}
+
+#Banner
+{
+    grid-column: 3/6;
+    grid-row: 3;
+}
+
+#prod01 { grid-row: 4;   
+    grid-column: 2;}
+#prod02 { grid-row: 4;   
+    grid-column: 3;}
+#prod03 { grid-row: 4;   
+    grid-column: 4;}
+#prod04 { grid-row: 4;   
+    grid-column: 5;}
